@@ -4,7 +4,7 @@
     <div class="app-box">
       <div id="container-a"></div>
       <div id="container-b">
-        <iframe src="//localhost:8085" frameborder="0"></iframe>
+        <!-- <iframe src="//localhost:8081" frameborder="0"></iframe> -->
       </div>
     </div>
     <!-- <iframe src="//localhost:8085" frameborder="0"></iframe> -->
@@ -25,20 +25,25 @@ export default {
     registerMicroApps([
       {
         name: 'vueAppA',
-        entry: '//localhost:8083',
+        entry: '//localhost:8080',
         container: '#container-a',
-        activeRule: '/',
+        activeRule: '/index',
       },
       {
         name: 'vueAppB',
-        entry: '//localhost:8085',
+        entry: '//localhost:8081',
         container: '#container-b',
-        activeRule: '/b',
+        activeRule: '/index',
       },
-     
+          {
+        name: 'vueAppC',
+        entry: '//localhost:8081',
+        container: '#container-b',
+        activeRule: '/appb',
+      },
     ]);
     // 启动 qiankun
-    start();
+    start({ singular: false });
   }
 }
 </script>

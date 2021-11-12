@@ -39,7 +39,7 @@ function render(props = {}) {
     router,
     // store,
     render: (h) => h(App),
-  }).$mount(container ? container.querySelector('#app') : '#app');
+  }).$mount(container ? container.querySelector('#appB') : '#appB');
 }
 
 
