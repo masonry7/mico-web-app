@@ -37,7 +37,7 @@ export default {
       },
           {
         name: 'vueAppC',
-        entry: '//localhost:8081',
+        entry: '//localhost:8081/about',
         container: '#container-b',
         activeRule: '/appb',
       },
