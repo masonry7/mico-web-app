@@ -1,0 +1,2 @@
+(window["webpackJsonp_mico-app-a"]=window["webpackJsonp_mico-app-a"]||[]).push([["about"],{f820:function(t,a,e){"use strict";e.r(a);var n=function(){var t=this,a=t.$createElement;t._self._c;return t._m(0)},s=[function(){var t=this,a=t.$createElement,e=t._self._c||a;return e("div",{staticClass:"about"},[e("h1",[t._v("This is an about page")])])}],c=e("2877"),i={},u=Object(c["a"])(i,n,s,!1,null,null,null);a["default"]=u.exports}}]);
+//# sourceMappingURL=about.ca29a6a5.js.map
