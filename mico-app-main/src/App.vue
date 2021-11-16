@@ -25,19 +25,19 @@ export default {
     registerMicroApps([
       {
         name: 'vueAppA',
-        entry: '//localhost:8080',
+        entry: '//localhost:9001',
         container: '#container-a',
         activeRule: '/index',
       },
       {
         name: 'vueAppB',
-        entry: '//localhost:8081',
+        entry: '//localhost:9002',
         container: '#container-b',
         activeRule: '/index',
       },
           {
         name: 'vueAppC',
-        entry: '//localhost:8081/about',
+        entry: '//localhost:9002/about',
         container: '#container-b',
         activeRule: '/appb',
       },
